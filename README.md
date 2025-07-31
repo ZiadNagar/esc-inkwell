@@ -32,7 +32,7 @@ InkWell supports standard Markdown syntax, including:
 - Headers (# H1, ## H2, etc.)
 - Emphasis (_italic_ and **bold**)
 - Lists (ordered and unordered)
-- Links [link text](url)
-- Images ![alt text](image_url)
+- Links [link text].
+- Images ![alt text]
 - Code blocks (inline and fenced)
 - And more!
