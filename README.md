@@ -1,38 +1,12 @@
-# InkWell - Markdown Blog Platform
+# React + Vite
 
-InkWell is a client-side blog creation and viewing platform built with React. It allows users to create, read, edit, and delete blog posts written in Markdown, with support for embedding images.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Create, read, update, and delete blog posts
-- Write posts using Markdown syntax
-- Embed images in your posts
-- Responsive design for all screen sizes
-- Client-side storage using LocalStorage
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+## Expanding the ESLint configuration
 
-- React
-- React Router
-- React Markdown
-- TailwindCSS
-
-## Usage
-
-- **Home Page**: View all your blog posts
-- **Create Post**: Click on "New Post" to create a new blog post
-- **View Post**: Click on a post title or "Read More" to view the full post
-- **Edit Post**: While viewing a post, click on "Edit Post" to modify it
-- **Delete Post**: While viewing a post, click on "Delete Post" to remove it
-
-## Markdown Features
-
-InkWell supports standard Markdown syntax, including:
-
-- Headers (# H1, ## H2, etc.)
-- Emphasis (_italic_ and **bold**)
-- Lists (ordered and unordered)
-- Links [link text].
-- Images ![alt text]
-- Code blocks (inline and fenced)
-- And more!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
