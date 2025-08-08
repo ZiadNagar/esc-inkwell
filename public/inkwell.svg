@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <filter id="noise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.04"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#F8F3E6"/>
+  <g filter="url(#noise)">
+    <rect width="64" height="64" fill="#000" opacity="0.05"/>
+  </g>
+  <!-- Ink bottle -->
+  <g transform="translate(8 10)">
+    <rect x="8" y="20" width="40" height="24" rx="6" fill="#1F2937" stroke="#0B0E14" stroke-width="1.5"/>
+    <rect x="22" y="12" width="12" height="10" rx="3" fill="#334155" stroke="#0B0E14" stroke-width="1.5"/>
+    <path d="M12 32h32" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+    <circle cx="28" cy="32" r="6" fill="#0EA5B7" stroke="#0B0E14" stroke-width="1.5"/>
+    <path d="M25 32h6M28 29v6" stroke="#083B3F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Pen nib -->
+  <g transform="translate(2 2) rotate(-15 32 32)">
+    <path d="M44 10l8 8-10 10-8-8z" fill="#0EA5B7" stroke="#0B0E14" stroke-width="1.5"/>
+    <circle cx="42" cy="20" r="2.2" fill="#F8F3E6" stroke="#0B0E14" stroke-width="1.3"/>
+  </g>
+  <!-- Sketchy border -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="11" fill="none" stroke="#0B0E14" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 3" opacity="0.7"/>
+</svg>
+
+
