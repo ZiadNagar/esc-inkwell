@@ -1,4 +1,4 @@
-## InkWell — Local‑first Markdown Blog (React + Vite + Tailwind v4)
+## InkWell — Local‑first Markdown Blog
 
 InkWell is a client‑side blogging app for creating, reading, editing, and deleting posts with images — all data lives in LocalStorage. No backend required. The UI embraces a hand‑drawn, vintage aesthetic with smooth motion.
 
