@@ -128,7 +128,3 @@ Post shape stored in LocalStorage (`inkwell_posts`):
 - Optional: swap editor for `@mdxeditor/editor` with syntax highlighting
 - Tags/categories, search, drafts filtering, sorting
 - More micro‑interactions and iconography
-
-### License
-
-MIT — see `LICENSE` (or adapt as needed).
