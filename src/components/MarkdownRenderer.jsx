@@ -5,8 +5,6 @@ export const MarkdownRenderer = ({ markdown }) => {
   return (
     <div className="space-y-4">
       {lines.map((block, idx) => {
-        // images inline inside paragraph: ![alt](url)
-        // handled later together with links
 
         // headings #, ##, ###
         const h1 = block.match(/^#\s+(.*)$/);

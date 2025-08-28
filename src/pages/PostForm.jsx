@@ -63,11 +63,9 @@ export const PostFormPage = ({ mode = "create" }) => {
       el.innerHTML = initial;
       setEditorHtml(initial);
     } else {
-      // fallback: show plain text
       el.textContent = initial;
       setEditorHtml(el.innerHTML);
     }
-    // ensure paragraphs are created as <p>
     try {
       document.execCommand("defaultParagraphSeparator", false, "p");
     } catch {}
